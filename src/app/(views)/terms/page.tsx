@@ -1,4 +1,4 @@
-export default async function Terms() {
+export default function Terms() {
   return (
     <main>
       <h1>Politicas</h1>

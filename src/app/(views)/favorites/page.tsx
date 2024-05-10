@@ -1,4 +1,4 @@
-export default async function Favorites() {
+export default function Favorites() {
   return (
     <main>
       <h1>Favorites</h1>

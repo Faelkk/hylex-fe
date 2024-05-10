@@ -1,4 +1,4 @@
-export default async function Payment() {
+export default function Payment() {
   return (
     <main>
       <h1>Payment</h1>

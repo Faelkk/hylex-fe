@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        "3pp": "300px",
+        pp: "370px",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -42,6 +46,9 @@ const config: Config = {
           200: "#4F4F4F",
           300: "#42464D",
           400: "#B1B1B1",
+          500: "#BBBB",
+          600: "#797979",
+          700: "#969696",
         },
         green: {
           50: "#F2FBF8",
