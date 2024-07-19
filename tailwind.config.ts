@@ -8,15 +8,19 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        "home-anuncio": "url('/assets/home.jpg')",
+      },
       screens: {
         "3pp": "300px",
         pp: "370px",
+        medium: "500px",
+        small: "900px",
+        large: "1200px",
+        default: "1300px",
+        xl: "1400px",
       },
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
+
       fontFamily: {
         poppins: ["var(--font-primary-poppins)"],
         roboto: ["var(--font-primary-roboto)"],
@@ -30,14 +34,18 @@ const config: Config = {
           400: "#526D82",
           500: "#9DB2BF",
           600: "#DDE6ED",
+          700: "#565C69",
         },
         gray: {
           0: "#FFFFFF",
           50: "#FCFCFC",
+          80: "#F1F1F1",
           100: "#F8F9FA",
           200: "#F0F0F0",
           300: "#E9E9E9",
           400: "#D9D9D9",
+          500: "#F5F5F5",
+          600: "#959595",
         },
         black: {
           0: "#000",
@@ -49,6 +57,9 @@ const config: Config = {
           500: "#BBBB",
           600: "#797979",
           700: "#969696",
+          800: "#B6B6B6",
+          900: "#2E2C2C",
+          950: "#171719",
         },
         green: {
           50: "#F2FBF8",

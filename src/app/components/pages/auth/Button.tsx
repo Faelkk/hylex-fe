@@ -12,8 +12,9 @@ export default function Button({ children, classname, disabled }: ButtonProps) {
     <button
       disabled={disabled}
       className={cn(
-        "w-[12rem] 3pp:w-[16rem] pp:w-[22.75rem] md:w-[28.75rem] font-poppins font-medium text-[18px] bg-green-400 p-3 rounded-[8px] mt-8 hover:bg-green-500 transition-colors",
-        classname
+        "w-[12rem] 3pp:w-[16rem] pp:w-[22.75rem] md:w-[28.75rem] font-poppins font-medium text-[18px]  p-3 rounded-[8px] mt-8  transition-colors text-gray-0",
+        classname,
+        disabled ? "bg-black-400" : "bg-green-400 hover:bg-green-500"
       )}
     >
       {children}

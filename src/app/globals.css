@@ -62,3 +62,17 @@ button:focus,
 input {
   outline: none;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+.scrollbar-hide {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  scroll-behavior: smooth;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
