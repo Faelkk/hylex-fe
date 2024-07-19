@@ -28,7 +28,7 @@ export default function PaymentReview() {
         </h2>
         {order.updatedOrder.map((updatedOrder) => (
           <PaymentReviewCard
-            key={updatedOrder.product.productId}
+            key={updatedOrder.product.id}
             order={updatedOrder}
           />
         ))}

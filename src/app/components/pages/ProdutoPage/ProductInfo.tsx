@@ -3,8 +3,6 @@ import { useProductName } from "@/app/contexts/ProductNameContext";
 export default function ProductInfo() {
   const { ProductName } = useProductName();
 
-  console.log(ProductName, "name");
-
   return (
     <section className="mt-10">
       <h1 className="text-black-0 font-poppins font-semibold uppercase">

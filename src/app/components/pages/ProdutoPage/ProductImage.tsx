@@ -28,12 +28,12 @@ export default function ProductImage({ colorActive }: { colorActive: string }) {
     }
   };
 
-  const isLiked = favorites.some((p) => p.productId === ProductName.productId);
+  const isLiked = favorites.some((p) => p.id === ProductName.id);
 
   const handleLike = (event: React.MouseEvent<HTMLButtonElement>) => {
     event.stopPropagation();
     if (isLiked) {
-      removeFavorite(ProductName.productId);
+      removeFavorite(ProductName.id);
     } else {
       addFavorite(ProductName);
     }

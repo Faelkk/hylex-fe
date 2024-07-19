@@ -25,10 +25,7 @@ export default function FavoritesSection() {
 
         <section className="flex flex-col justify-center w-full">
           {favorites.map((itemFavorite) => (
-            <FavoriteItem
-              key={itemFavorite.productId}
-              favoriteItem={itemFavorite}
-            />
+            <FavoriteItem key={itemFavorite.id} favoriteItem={itemFavorite} />
           ))}
         </section>
         <div className="bg-gray-200  w-full h-[2px] my-20"></div>
